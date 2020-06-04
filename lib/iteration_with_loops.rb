@@ -2,13 +2,13 @@ def find_even_values(src)
   # Given an Array of Arrays of Integers ( [ [10, 11], [99, 50, 3, 4], [23, 41] ] ):
   #
   # Output all even values in each nested array
-  row_index = 0
-  while row_index < src.count do
-    element_index = 0
-    while element_index < src[row_index].count do
-      p src[row_index][element_index]
-      element_index += 1
+  array_number = 0
+  while array_number < src.count do
+    element_number = 0
+    while element_number < src[array_number].count do
+      p src[array_number][element_number]
+      element_number += 1
     end
-    row_index += 1
+    array_number += 1
   end
 end
